@@ -161,29 +161,6 @@ body.nav-acctive{overflow: hidden;}
 /*-----------------------------------*\
   #TYPOGRAPHY
 \*-----------------------------------*/
-.display-1
-.headline-1
-.headline-2
-.title-1
-.title-2
-.title-3
-.title-4{
-  color: var(--white);
-  font-family: var(--fontFamily-forum);
-  font-weight: var(--weight-regular);
-  line-height: var(--lineHeight-2);
-}
-.display-1 {
-  font-size: var(--fontSize-display-1);
-  line-height: var(--lineHeight-1);
-}
-.headline-1{ font-size: var(--fontSize-headline-1);}
-.headline-2{
-  font-size: var(--fontSize-headline-2);
-  line-height: var(--lineHeight-2);
-}
-.title-1{font-size: var(--fontSize-title-1);}
-
 
 .display-1,
 .headline-1,
@@ -242,15 +219,6 @@ body.nav-acctive{overflow: hidden;}
   transform: rotate(45deg);
 }
 
-
-.container{ padding-inline: 16px;}
-
-.separator{
-  width: 8px;
-  height: 8px;
-  border: 1px solid var(--gold-crayola);
-  transform: rotate(45deg);
-}
 .contact-label { font-weight: var(--weight-bold);}
 .contact-number {
   color: var(--gold-crayola);
@@ -408,10 +376,6 @@ body.nav-acctive{overflow: hidden;}
 .nav-open-btn .line-2{animation-delay: 150ms;}
 .nav-open-btn .line-3{animation-delay: 300ms;}
 
-.navbar,
-.overlay,
-.header .btn { display: none; }
-
 
 .navbar{
   position: fixed;
@@ -493,12 +457,11 @@ body.nav-acctive{overflow: hidden;}
 
 .sidebar-link:is(:hover, :focus-visible) {color: var(--gold-crayola);}
 
-.navbar .text-center .separator{
+.navbar .text-center .sparator{
   margin-block: 30px;
   margin-inline:auto;
   
 }
-
 
 
 /*-----------------------------------*\
