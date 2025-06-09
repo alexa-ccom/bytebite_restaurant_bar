@@ -489,6 +489,80 @@ body.nav-acctive{overflow: hidden;}
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('../images/hero-bg.jpg') no-repeat center / cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-inline: 15px;
+}
+
+.hero .content {
+  max-width: 300px;
+}
+
+.hero .title-1 {
+  color: var(--gold-crayola);
+  margin-block-end: 15px;
+}
+
+.hero .body-2 {
+  color: var(--quick-silver);
+}
+
+
+/*-----------------------------------*\
+  #SERVICE
+\*-----------------------------------*/
+.service {
+  padding-block: var(--black);
+}
+
+.service .container {
+  display: grid;
+  gap: 40px;
+}
+
+.service-card{
+  background-color: var(--black);
+  padding: 24px;
+  border-radius: var(--radius-24);
+  box-shadow: var(--shadow-1);
+  transition: var(--transition-1);
+}
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 40px var(--black-alpha-15);
+}
+.service-card .title-3 {
+  color: var(--gold-crayola);
+  margin-block-end: 12px;
+}
+.service-card .body-4 {
+  color: var(--quick-silver);
+}
+
+/*-----------------------------------*\
+  #ABOUT
+\*-----------------------------------*/
+.about {
+  padding-block: var(--section-space);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.about .title-1 {
+  color: var(--gold-crayola);
+  margin-block-end: 20cqmax;
+}
+.about .body-2 {
+  color: var(--quick-silver);
+  max-width: 300px;
+}
 
 
 
